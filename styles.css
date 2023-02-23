@@ -1,0 +1,320 @@
+body{
+    background-color: #ffffff;
+    font-family:Trebuchet MS, sans-serif;
+    margin: 0
+}
+.global-nav{
+    background-color: #494D5F ;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+a.nav-element{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    padding: 20px;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 17px;
+    font-weight: 300;
+}
+
+i{
+    z-index: 3;
+    transform: scale(1.8);
+}
+
+.home-hero {
+    z-index: 0;
+    padding: 0px;
+    background-image: url("./stock-images/colorful-abstract-nebula-space-background.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.hero-text {
+    z-index: 1;
+    display: block;
+    color: white;
+    padding: 140px;
+    font-size: large
+}
+    
+.my-image{
+    border-radius: 35%;
+    z-index:2;
+    height:390px;
+    width: 300px;
+    padding: 100px
+}
+
+
+.learn-btn {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #d8caed;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #d8caed;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 50px;
+  min-width: 30px;
+  max-width: 200px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  margin-top: 5rem
+}
+
+.learn-btn:disabled {
+  pointer-events: none;
+}
+
+.learn-btn:hover {
+  color: #fff;
+  background-color: #1b1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.learn-btn:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.about-me{
+    color: #8870ac;
+    font-size: xx-large;
+    font-style:oblique;
+    text-align: center;
+    
+}
+
+.currently-txt{
+    font-style:italic;
+    font-weight: 80; 
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.home-category-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.category-card{
+ width: 300px; 
+ height: 400px;
+ padding: 1rem;
+ float: right;
+ background-color: #8870ac;
+ margin: 0 auto;
+}
+
+.category-head{
+ width: 300px;
+ height: 70px;
+ background-color: #5c4e74;
+ color: white;
+ padding: 1rem
+}
+.campanile-img{
+ width: 300px;
+ height: 340px;
+}
+.dept-img{
+ width:300px;
+ height: 170px;
+}
+.skate-img{
+ width: 300px;
+ height: 340px;
+}
+
+/* Footer Styling starts here*/
+
+.footer-container{
+    z-index: 1;
+    margin-top: 1rem;
+    
+}
+
+.footer-text{
+    z-index: 1;
+    margin: 1rem 0 1rem 2rem;
+    display: flex; 
+    flex-direction: row;
+   
+}
+
+.footer-wave{
+    height: 300px;
+    width: 100%
+}
+#footer-heading{
+    font-size: 20px
+}
+.footer-element{
+ padding-right: 5rem;
+ text-decoration: none;
+ color:#4c3577;
+ text-decoration-style: none;
+}
+
+.footer-element:hover{
+    cursor: pointer
+}
+
+
+/* .social-handles{
+    text-decoration: none;
+    display: inline-block;
+} */
+
+/* Work Page Styling Starts Here */
+
+.work-content-container{
+    margin: 4rem
+}
+
+.cro-container{
+    display: flex; 
+    flex-direction: row;
+    margin: 3rem 4rem 3rem 4rem;
+    border-top: solid; 
+    border-width: 3px;
+    border-color: #c69fe6;
+    padding: 1.5rem 4rem 1.5rem 4rem
+}
+.cro-img{
+ border-image: stretch;
+ height: 300px;
+ width: 500px;
+ border-top-right-radius: 50%;
+ border-bottom-left-radius: 50%;
+}
+
+.cro-content{
+    margin: 1rem;
+    padding: 1rem
+}
+.seo-container{
+    display: flex; 
+    flex-direction: row-reverse;
+    margin: 3rem 4rem 3rem 4rem;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #c69fe6;
+    padding: 1.5rem 4rem 1.5rem 4rem
+
+}
+.seo-img{
+ height: 300px;
+ width: 500px;
+ border-top-left-radius: 50%;
+ border-bottom-right-radius: 50%;
+}
+.seo-content{
+    margin: 1rem;
+    padding: 1rem
+}
+
+.all-projects{
+    display: flex;
+    /* grid-template-columns: auto auto auto auto; */
+    flex-direction: row;
+}
+
+.project-element{
+    height: 300px;
+    width: 300px;
+    margin: 2rem auto; 
+    border: solid;
+    border-width: 8px;   
+    border-color: #c69fe6;      
+    cursor: pointer;
+    background-image:url(./stock-images/purple-backdrop.jpeg) ;
+    background-size:cover;
+}
+
+.project-element:hover{
+    opacity: 0.8;
+}
+
+.purple-backdrop{
+    height:300px;
+    width:300px;
+    z-index: -2;
+    margin-top: -60px;
+}
+.project-name{
+    font-size:x-large;
+    padding: 0 .7rem 0 .7rem;
+    text-align: center;
+    text-decoration: dotted;
+    text-rendering: geometricPrecision;
+    color: white;
+    font-weight: 100px
+}
+
+.project-description{
+    margin: 0 1rem 0 1rem;
+    padding: 0rem 1rem 0 1rem;
+    color: rgb(62, 21, 149);
+    transition: .5s ease;
+    opacity: 0;
+
+}
+
+.project-element:hover .project-description{
+    opacity: 1
+}
+
+
+
+.look-btn{
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #6e4d9f;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color:  #6e4d9f;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 50px;
+    min-width: 30px;
+    max-width: 200px;
+    padding: 16px 20px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    margin: 3rem
+    
+}
